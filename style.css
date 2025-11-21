@@ -1,1 +1,18 @@
+img {
+    width: 100px;
+}
 
+/* ABSOLUTE position allows very specific
+ * placement based on distance from the 
+ * sides of the page (top/bottom or left/right)
+ */
+#absolute {
+    position: absolute;
+    top: 25%;
+    left: 250px;
+}
+#fixed {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
