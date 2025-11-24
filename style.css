@@ -3,15 +3,15 @@ img {
 }
 
 /* ABSOLUTE positioning is like setting coordinates
- * Takes the element out of the "normal flow"
- * Then you set distance from sides of the page
- * either top/left or bottom/right
+ * The element is taken OUT of the page's NORMAL FLOW
+ * Then we set the distance from two sides (top & left) 
  */
 #absolute {
-    position:absolute;
+    position: absolute;
     top: 200px;
     left: 150px;
 }
+
 #fixed {
     position: fixed;
     bottom: 0px;
