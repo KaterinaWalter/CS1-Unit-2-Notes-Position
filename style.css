@@ -2,14 +2,15 @@ img {
     width: 100px;
 }
 
-/* ABSOLUTE position allows very specific
- * placement based on distance from the 
- * sides of the page (top/bottom or left/right)
+/* ABSOLUTE positioning is like setting coordinates
+ * Takes the element out of the "normal flow"
+ * Then you set distance from sides of the page
+ * either top/left or bottom/right
  */
 #absolute {
-    position: absolute;
-    top: 25%;
-    left: 250px;
+    position:absolute;
+    top: 200px;
+    left: 150px;
 }
 #fixed {
     position: fixed;
