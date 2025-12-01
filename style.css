@@ -22,18 +22,13 @@ img {
     right: 0px;
 }
 
-
 /* STICKY positioning is like fixed, but 
  * only "sticks" there when you scroll to it
 */
 #sticky {
     position: sticky;
-    left: 0px;
-    top: 10px;
-}
-
-body {
-    height: 1000px;
+    left: 20px;
+    top: 15px;
 }
 
 
@@ -43,14 +38,22 @@ body {
  */
 #relative {
     position: relative;
-    left: 15px;
     top: -15px;
+    left: 15px;
 }
 
-/* Setting display to "inline-block"
- * makes the div fit perfectly around your img
- */ 
+
+
+
+
+body {
+    height: 1000px;
+}
+
+/* Setting display to "inline-block" makes a 
+ * div wrap perfectly around an item 
+*/
 #container {
     background: plum;
-    display: inline-block;
+    display:inline-block;
 }
