@@ -13,6 +13,7 @@ body {
     position: absolute;
     top: 230px;
     left: 150px;
+    z-index: 10;
 }
 
 /* FIXED positioning keeps the element in the same
@@ -31,4 +32,19 @@ body {
     position: sticky;
     top: 10px;
     left: 30px;
+}
+
+#container {
+    background: plum;
+    display:inline-block;
+}
+
+/* RELATIVE positioning lets you "nudge" an
+   element from its normal position on the page
+   (moves it relative to its static spot)
+*/
+#relative {
+    position: relative;
+    top: -20px;
+    left: 20px;
 }
